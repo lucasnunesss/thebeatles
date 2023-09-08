@@ -141,7 +141,7 @@ article > a img{
 }
 
 
-aside{
+.questionamento{
     padding: 30px;
     width: 300px;
     margin: auto;
@@ -150,14 +150,14 @@ aside{
     background-color: rgba(255, 255, 255, 0.726);
 }
 
-aside > p{
+.questionamento > p{
     list-style-type: '1F914';
 }
 
 .noticias > h1{
     font-family: var(--fonteandroid);
     background-color: rgba(0, 0, 0, 0.5);
-    
+    color: aliceblue;
     margin: auto auto -10px auto;
     padding: 10px;
 }
@@ -174,7 +174,7 @@ aside > p{
     font-size: 1.5em; 
     margin-top: 10px; 
     border: 0.5px solid black;
-    color: black;
+    color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-bottom: 0px;
@@ -182,7 +182,7 @@ aside > p{
 
 .noticias  > a p:hover{
     font-size: 2em ;
-    background-color: whitesmoke;
+    background-color: black;
 
 
 }
