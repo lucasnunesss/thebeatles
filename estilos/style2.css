@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background-color: #3F3F41;
+}
+
+
+
+header{
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+header > h1{
+    font-family: var(--fonteandroid);
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 15%;
+    min-width: 200px;
+    margin: auto;
+}
+
+header > p{
+    font-family: var(--fontedestaque);
+    font-size: 1.6em;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.671);
+}
+
+nav > a{
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover{
+    font-size: 1.3em;
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: .3s;
+}
+
+main{
+   margin: auto;
+   text-align: center;
+}
+
+main > h1{
+    font-family: 'DM Sans';
+    font-size: 3em;
+    color: white;
+    text-align: center;
+   
+}
+
+main > img{
+    
+    width: 70%;
+    min-width: 500px;
+    
+    
+}
+
+.shows{
+    box-shadow: 7px 9px 12px 8px black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.shows > a{
+    display: block;
+    border: 2px solid black;
+
+    background-color: gray;
+    text-decoration: none;
+    
+}
+
+.shows > a:hover{
+    font-size: 1.8em;
+    background-color: white;
+    transition-duration: 1.5s;
+}
+
+.shows > a:active{
+    text-decoration: underline black;
+}
+
+.shows > a p{
+    color: white;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.shows > a h2{
+    color: black;
+   font-size: 1.5em;
+}
+
+.shows > a p:hover{
+    color: black;
+}
