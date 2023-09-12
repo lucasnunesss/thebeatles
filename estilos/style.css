@@ -34,7 +34,8 @@ header{
 }
 
 header > h1{
-    font-family: var(--fonteandroid);
+    font-family: var(--fontedestaque);
+    font-size: 4em;
     background-color: rgba(0, 0, 0, 0.329);
     width: 15%;
     min-width: 200px;
